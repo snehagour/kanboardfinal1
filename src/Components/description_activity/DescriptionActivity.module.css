@@ -1,0 +1,32 @@
+.activityContainer {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:1rem 0;
+ }
+
+ .activityLeft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:1rem
+ }
+
+ .hideDetails {
+    width:20%;
+    background-color: #E4E6EA;
+    padding:0.5rem 0.3rem;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   cursor: pointer;
+    border-radius: 5px;
+    text-align: center; 
+ }
+
+ .activityText {
+   font-weight: bold;
+   font-size: 1.2rem;
+ }

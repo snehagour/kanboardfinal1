@@ -1,0 +1,91 @@
+.commentContainer {
+   display: flex;
+   margin-bottom: 1rem;
+   flex-direction: column;
+}
+
+.comment {
+   display: flex;
+   margin-left: 2.3rem;
+   height:4.5vh;
+   margin-bottom: 0.5rem;
+  
+}
+
+.mainComments {
+   position: relative;
+   top:35px;
+   
+}
+
+.mainComment {
+   position:relative;
+   top:42px;
+}
+
+.comments {
+   width:100%;
+   outline:none;
+   border: transparent;
+   border-radius: 5px;
+   padding:0.6rem;
+   background-color: #FFFFFF;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  
+}
+.commentList{
+   display: flex;
+   flex-direction: column-reverse;
+}
+
+.commentTexts {
+   display: flex;
+   gap:0.5rem;
+   flex-direction: column;
+   margin-bottom: 1rem;
+
+}
+
+.eachComment {
+   margin-left: 2.3rem;
+   background-color: #F1F2F4;
+   margin-top:0.5rem;
+   padding: 0.6rem;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.updateComment {
+   margin-left: 2.3rem;
+   display: flex;
+   gap:0.3rem;
+   padding:0.2rem;
+}
+
+.modifyComment {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.modifyComment:hover {
+   color: blue;
+}
+
+.commentsTime {
+   color:rgb(87, 86, 86);
+   font-weight: bold;
+   margin-left: 0.5rem;
+   font-size: 0.75rem;
+}
+
+.user {
+   margin-left: 1rem;
+   font-weight: bold;
+}
+
+.commentsContainer{
+   margin-top: 0.2rem;
+   
+}

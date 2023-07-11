@@ -1,0 +1,20 @@
+.dltBtn{
+    border: none;
+background-color: transparent;
+cursor: pointer;
+color: red;
+font-size: large;
+}
+.dltBtn:hover{
+    background-color: whitesmoke;
+}
+.moreBtn{
+    border: none;
+    cursor: pointer;
+}
+.moreBtn:hover{
+    background-color: rgb(202, 200, 200);
+}
+.moreBtn:active{
+    background-color: rgb(183, 180, 180);
+}

@@ -1,0 +1,44 @@
+.addCardFooter{
+display: flex;
+justify-content: space-between;
+margin-left: -7px;
+margin-top: 8px;
+}
+.titleForItemField{
+ border: none;
+ border-radius: 8px;
+ font-size: 15px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left: -7px;
+ padding: 5px;
+ width: 14.1rem;
+ padding-left: 15px;
+ padding-top: 15px;
+ resize: none;
+ box-shadow: 0px 0px 2px .1px rgb(183, 182, 182);
+}
+.addCardBtn{
+    background-color: #1c7bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+.addCardBtn:hover{
+    background-color: #0055CC;
+}
+.titleForItemField:focus{
+    outline: none;
+}
+#closeIcon{
+    cursor: pointer;
+    background-color: blueviolet;
+    margin-left: 10px;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+#closeIcon:hover{
+    background-color: rgb(117, 35, 193);
+}

@@ -1,0 +1,40 @@
+
+
+.descriptionContainer {
+  height:100vh;
+  display: flex;
+  width:100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ background-color: rgb(107, 106, 106);
+ overflow-x: hidden;
+ 
+
+}
+
+.descriptionMainContainer{
+  width:40vw;
+  background-color: #F1F2F4;
+  padding:1.5rem;
+  border-radius: 10px;
+  overflow-y: auto;
+  height:90vh;
+  
+
+}
+
+.close {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.iconClose {
+  cursor: pointer;
+}
+
+
+
+
+

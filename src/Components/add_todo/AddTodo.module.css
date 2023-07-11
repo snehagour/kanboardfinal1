@@ -1,0 +1,136 @@
+.mainCardDiv{
+    width: 15rem;
+    min-height: 4rem;
+    height: fit-content;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #F1F2F4;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.addCartItem{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.addCardBtn{
+    border: none;
+    background-color: #F1F2F4;
+    width: 13rem;
+    border-radius: 10px;
+    margin-left: -6px;
+    text-align: start;
+    padding: 5px;
+    /* color:#B7BCC7; */
+    color: grey;
+    
+}
+.addCardBtn:hover{
+    background-color: #e3e4e5;
+
+}
+.todoNameField{
+    background-color: #F1F2F4;
+    border: none;
+    width: 11.5rem;
+    padding: 5px;
+}
+.todoNameField:focus{
+    background-color: white;
+    border:2px solid #3390FF;
+    border-radius: 5px;
+    outline: none;  
+}
+.itemOfCardDiv{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 9px; 
+    margin-top: 1px;   
+
+    padding-left: 15px;
+    font-size: 15px;
+    margin-left: -8px;
+    color: grey;
+    box-shadow: 0px 0px 2px .1px rgb(183, 182, 182);
+}
+.itemOfCardDiv:hover{
+    background-color: #F1F2F4;
+}
+.titleForItemField{
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -7px;
+    padding: 5px;
+    width: 14.1rem;
+    padding-left: 15px;
+    padding-top: 15px;
+    resize: none;
+    box-shadow: 0px 0px 2px .1px rgb(183, 182, 182);
+   }
+   .updateCardItemBtn{
+    background-color: #1c7bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+.titleForItemField:focus{
+    outline: none;
+}
+.editBtn{
+border:none;
+border-radius: 5px;
+padding: 2px;
+font-size: 13px;
+margin: 0;
+display: none;
+cursor: pointer;
+}
+.editBtn:hover{
+background-color: rgb(217, 216, 216);
+}
+
+.itemOfCardDiv:hover .editBtn{
+    display: block;;
+}
+.itemOfCardDiv:hover .dltBtn{
+    display: block;;
+}
+.dltBtn{
+    border: none;
+    border-radius: 5px;
+padding: 2px;
+font-size: 13px;
+margin: 0;
+display: none;
+cursor: pointer;
+margin-right: 10px;
+}
+.dltBtn:hover{
+    background-color:rgb(217, 216, 216); ;
+}
+.btnWrapper{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.mainCardDiv span{
+  display: block;
+  width: 12rem;
+  cursor: pointer;
+}
+.cardTitle{
+    width: 70%;
+    padding: 8px;
+   min-height: auto;
+ overflow: hidden;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

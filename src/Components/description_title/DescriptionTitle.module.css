@@ -1,0 +1,97 @@
+.titleContainer {
+    display: flex;
+    align-items: flex-start;
+    gap:1rem;
+    margin-bottom: 1.5rem;
+    
+  }
+  .titleFirst {
+    display: flex;
+    gap:1rem;
+
+  }
+  
+  .titleName {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+   
+  }
+  
+  .titleName p {
+    margin: 0;
+    font-weight: bold;
+  }
+
+.listName {
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    width:100%;
+    text-align: left;
+    margin-top: 0.4rem;
+} 
+  
+.watching {
+    display: flex;
+    flex:1;
+    gap:0.5rem;
+    background-color: #E4E6EA;
+    text-align: center;
+    
+    width:8vw;
+    padding:0.3rem;
+    border-radius: 5px;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 0.4rem;
+}
+
+.watching div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.check {
+    background-color: #626F86;
+    border-radius: 3px;
+    color: white;
+    
+}
+
+.contentContainer {
+    margin-top: 1rem;
+   
+}
+.notificationContainer small{
+    color: #44546F;
+    font-weight: bold;
+   
+}
+
+.watch {
+    
+    width:8vw;
+    background-color: #E4E6EA;
+    padding:0.3rem;
+    gap:0.5rem;
+    flex:1;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 0.4rem;
+
+}
+.watch div{
+    display: flex;
+    text-align: center;
+}
+
+.textField {
+    outline:none;
+    border:none;
+    width:20vw;
+}

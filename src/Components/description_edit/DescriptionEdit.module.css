@@ -1,0 +1,38 @@
+.description {
+   display: flex;
+   align-items: center;
+   gap:1rem;
+ }
+
+ .descriptionContainer {
+   margin-bottom: 1.5rem;
+ }
+ 
+ .edit {
+   background-color: #E4E6EA;
+   padding: 0.5rem;
+   border-radius: 4px;
+   margin: 0;
+   cursor: pointer;
+ }
+ 
+ 
+.inputField {
+   height:2vh;
+}
+
+.inputContainer {
+   margin-left: 2.5rem;
+   display: flex;
+   flex-direction: column;
+   margin-top:0.5rem;
+}
+
+.descriptionContent{
+   margin-left: 2.5rem;
+}
+
+.descriptionText{
+   font-weight: bold;
+   font-size: 1.2rem;
+}

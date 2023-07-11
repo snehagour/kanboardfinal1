@@ -1,0 +1,328 @@
+* {
+
+
+  scroll-behavior: smooth;
+}
+.mainDiv {
+  /* display: flex; */
+  justify-content: center;
+  height: 600vh;
+  width: 100vw;
+  background: #eaf1ff;
+}
+
+/* customisation page css */
+
+.heading {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  background-color: #eaf1ff;
+}
+.heading span {
+  background-color: #c3cee4;
+}
+.heading + div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0;
+  padding: 0px;
+  background-color: #eaf1ff;
+}
+.imageDiv {
+  /* flex-wrap: wrap; */
+  overflow: auto;
+  display: flex;
+  justify-content: space-around;
+
+  background-color: #eaf1ff;
+  max-height: 40vh;
+
+}
+.imageDiv::-webkit-scrollbar {
+  /* width: 1px; /* Hide the scrollbar for WebKit browsers (Chrome, Safari) */
+  /* display:flex;  */
+  /* background-color: red;
+  color: white;
+  display: flex;
+  background-position: 0%;
+  display: none; */
+}
+.perImg {
+  /* border: 2px solid; */
+  /* height: 200px; */
+  width: 20vw;
+  padding: 10px;
+  border-radius: 20px;
+}
+.perImg:hover {
+  /* transform: scale(1.1); */
+  transform: scale(1.2);
+  transition: transform 1s ease;
+}
+.textField {
+  width: 550px;
+}
+.inpDiv {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #eaf1ff;
+}
+
+/* intro page css */
+
+.introPage {
+  height: 100vh;
+}
+.introNav {
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  top: 0;
+}
+.introNavLogo {
+  height: 30px;
+}
+.btnDiv Button {
+  border: none;
+
+  background-color: rgba(7, 79, 187, 0.459);
+  border-radius: 10px;
+}
+.btnDiv Button:hover {
+  transform: scale(1.3);
+  transform: rotate(5deg);
+}
+#introNavBlankButtons {
+  /* background-color: transparent; */
+  transform: rotate(90deg);
+}
+#introNavGreenButtons {
+  background-color: rgba(0, 128, 0, 0.473);
+}
+#introNavGreenButtons:hover {
+  background-color: rgba(0, 128, 0, 0.774);
+}
+nav div {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid; */
+  /* padding: 2500px; */
+  margin: 0 2px 0 60px;
+}
+.btnDiv {
+  display: flex;
+  gap: 2px;
+}
+.centerText {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  padding: 200px 400px 200px 450px;
+  margin-top: 50px;
+}
+/* Feature page css */
+
+.features > div {
+  display: flex;
+  height: 50vh;
+}
+.features div div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+}
+.features img {
+  height: 50vh;
+  position: relative;
+  right: -1rem;
+}
+.features:hover img {
+  animation-name: featureAnimation;
+  animation-duration: 3s;
+}
+@keyframes featureAnimation {
+  0% {
+    right: 52rem;
+  }
+}
+.descDiv:hover img {
+  animation-name: DescAnimation;
+  animation-duration: 3s;
+}
+@keyframes DescAnimation {
+  0% {
+    left: 40rem;
+  }
+}
+
+.descDiv {
+  display: flex;
+  height: 40vw;
+}
+.descDiv div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+}
+.DecpText {
+  position: relative;
+  right: 0rem;
+}
+.descDiv:hover .DecpText {
+  animation-name: DespTextAnimation;
+  animation-duration: 3s;
+}
+@keyframes DespTextAnimation {
+  0% {
+    right: 35rem;
+  }
+}
+
+.descDiv img {
+  height: 40vw;
+  position: relative;
+  left: -2rem;
+}
+
+.custShow {
+  display: flex;
+}
+.custShow img {
+  position: relative;
+  right: -2rem;
+  width: 60%;
+}
+.custShowText {
+  position: relative;
+  left: 0rem;
+  width: 60%;
+}
+.custShow:hover .custShowText {
+  animation-name: CustAnimationText;
+  animation-duration: 3s;
+}
+.features:hover .featureText {
+  animation-name: CustAnimationText;
+  animation-duration: 3s;
+}
+.featureText {
+  position: relative;
+  left: 0rem;
+}
+.custShow:hover img {
+  animation-name: CustAnimation;
+  animation-duration: 3s;
+}
+@keyframes CustAnimationText {
+  0% {
+    left: 35rem;
+  }
+}
+@keyframes CustAnimation {
+  0% {
+    right: 40rem;
+  }
+}
+
+.custShow div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  padding: 50px;
+}
+
+.forTeams {
+  height: 35vh;
+  padding: 20vh;
+  text-align: center;
+}
+
+.forStudent {
+  height: 49vh;
+  padding: 20vh;
+  text-align: center;
+}
+.companiesIcon {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: white;
+}
+.companiesIcon img {
+  height: 100px;
+}
+.companiesIcon img:hover {
+  transform: scale(1.2);
+  transition: transform 2s ease;
+  /* box-shadow: 0px 0px 5px; */
+}
+.footer {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eaf1ff;
+  /* background-color: rgba(146, 137, 137, 0.37); */
+}
+
+/* Pricing Css */
+.pricing {
+  height: 70vh;
+  background-color: #eaf1ff;
+}
+.pricing span {
+  background-color: #c3cee4;
+}
+.pricingText {
+  text-align: center;
+  font-size: 50px;
+}
+
+.pricing > div {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+.footer {
+  cursor: pointer;
+}
+.videoDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.videoDiv span {
+  background-color: #c3cee4;
+  font-size: 45px;
+}
+.videoDiv div {
+  min-height: 4rem;
+}
+.bcgDiv{
+  height: 3rem;
+}
